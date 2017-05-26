@@ -200,11 +200,44 @@
     <Compile Include="Migrations\201705261941555_InitalModel.Designer.cs">
       <DependentUpon>201705261941555_InitalModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705261948508_InitialModel.cs" />
+    <Compile Include="Migrations\201705261948508_InitialModel.Designer.cs">
+      <DependentUpon>201705261948508_InitialModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705261953085_AddIsSubscribedToNewsletter.cs" />
+    <Compile Include="Migrations\201705261953085_AddIsSubscribedToNewsletter.Designer.cs">
+      <DependentUpon>201705261953085_AddIsSubscribedToNewsletter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705262000327_AddMembershipType.cs" />
+    <Compile Include="Migrations\201705262000327_AddMembershipType.Designer.cs">
+      <DependentUpon>201705262000327_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705262001392_PopulateMembershipTypeTable.cs" />
+    <Compile Include="Migrations\201705262001392_PopulateMembershipTypeTable.Designer.cs">
+      <DependentUpon>201705262001392_PopulateMembershipTypeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705262007187_FixDiscountRateLabel.cs" />
+    <Compile Include="Migrations\201705262007187_FixDiscountRateLabel.Designer.cs">
+      <DependentUpon>201705262007187_FixDiscountRateLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705262013061_ApplyAnnotationsToCustomerName.cs" />
+    <Compile Include="Migrations\201705262013061_ApplyAnnotationsToCustomerName.Designer.cs">
+      <DependentUpon>201705262013061_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705262031055_AddNameFieldToMembershipTypes.cs" />
+    <Compile Include="Migrations\201705262031055_AddNameFieldToMembershipTypes.Designer.cs">
+      <DependentUpon>201705262031055_AddNameFieldToMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705262031386_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\201705262031386_SetNameOfMembershipTypes.Designer.cs">
+      <DependentUpon>201705262031386_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -296,6 +329,30 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705261941555_InitalModel.resx">
       <DependentUpon>201705261941555_InitalModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705261948508_InitialModel.resx">
+      <DependentUpon>201705261948508_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705261953085_AddIsSubscribedToNewsletter.resx">
+      <DependentUpon>201705261953085_AddIsSubscribedToNewsletter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705262000327_AddMembershipType.resx">
+      <DependentUpon>201705262000327_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705262001392_PopulateMembershipTypeTable.resx">
+      <DependentUpon>201705262001392_PopulateMembershipTypeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705262007187_FixDiscountRateLabel.resx">
+      <DependentUpon>201705262007187_FixDiscountRateLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705262013061_ApplyAnnotationsToCustomerName.resx">
+      <DependentUpon>201705262013061_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705262031055_AddNameFieldToMembershipTypes.resx">
+      <DependentUpon>201705262031055_AddNameFieldToMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705262031386_SetNameOfMembershipTypes.resx">
+      <DependentUpon>201705262031386_SetNameOfMembershipTypes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
