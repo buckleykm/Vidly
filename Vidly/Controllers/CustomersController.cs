@@ -71,9 +71,8 @@ namespace Vidly.Controllers
         public ViewResult Index()
         {
 
-            var customer = _context.Customers.Include(c => c.MembershipType).ToList();
-
-            return View(customer);
+            //customer lists are pulled using Ajax and jquery
+            return View();
         }
 
         public ActionResult Details(int id)
